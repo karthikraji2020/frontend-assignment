@@ -1,0 +1,29 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 2rem;
+  
+  :hover{
+    cursor: pointer;
+  }
+}
+
+.pagination button {
+  background-color: rgb(255, 255, 255);
+  min-height: 2.5rem;
+  min-width:2.5rem;
+
+  border:none;
+  margin: 0 0.1rem;
+  border-radius: 6px;
+  padding: .25rem;
+
+  box-shadow: 2px 3px 7px #d3d6d6;
+  &:hover{
+    box-shadow: 2px 3px 2px #d3d6d6;
+    cursor: pointer;
+  }
+  &.active {
+    background: gray;
+    color:white;
+  }
+}
