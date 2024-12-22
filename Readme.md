@@ -8,7 +8,10 @@ E-comm Table with Pagination
 
 Check out the live demo of **E-comm Table with Pagination** in action:
 
-[Click here to view the demo](./public/e-comm-table-with-pagination.mp4) 🎨✨
+
+<p align="center">
+<img src="./public/demo.gif" alt="uigenkit">
+</p>
 
 
 ## Available Scripts
