@@ -1,7 +1,15 @@
 # Getting Started with Table with Pagination
 
-Table with Pagination
+E-comm Table with Pagination
 ## Accessibility added [x]
+
+
+## :film_projector: DEMO
+
+Check out the live demo of **E-comm Table with Pagination** in action:
+
+[Click here to view the demo](./public/e-comm-table-with-pagination.mp4) 🎨✨
+
 
 ## Available Scripts
 
