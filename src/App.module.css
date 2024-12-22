@@ -1,33 +1,7 @@
 
 .container{
   height: 100%;
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
-}
-.all-products {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto;
-  gap: 1rem;
-}
-
-.product {
-  /* width:200px;
-  height:200px; */
-  /* border:1px solid black; */
-  border-radius: 10px;
-  padding: .25rem;
-  box-shadow: 2px 3px 7px #d3d6d6;
-
-}
-
-.product:hover {
-  box-shadow: 2px 3px 2px #d3d6d6;
-  cursor: pointer;
-}
-
-.product img {
-  /* height: 80px;
-  width: 60px; */
-  object-fit: fill;
+  text-align: center;
 }

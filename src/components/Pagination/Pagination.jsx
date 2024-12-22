@@ -13,6 +13,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
               }`}
               key={i}
               onClick={() => onPageChange(i + 1)}
+              title={`${i+1} page of ${totalPages}`}
             >
               {i+1}
             </button>

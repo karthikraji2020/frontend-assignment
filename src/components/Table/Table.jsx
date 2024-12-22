@@ -18,13 +18,13 @@ export const Table = ({ data, currentPage, totalPages, onPageChange }) => {
           {
          data.length ? (data.map((item, index) => (
             <tr key={index} tabIndex={0}>
-              <td>{item["s.no"]}</td>
-              <td>{item["percentage.funded"]}</td>
-              <td>{item["amt.pledged"]}</td>
+              <td title={item["s.no"]}>{item["s.no"]}</td>
+              <td title={item["percentage.funded"]}>{item["percentage.funded"]}</td>
+              <td title={item["amt.pledged"]}>{item["amt.pledged"]}</td>
             </tr>
           ))):( <tr>
             <td></td>
-            <td>{<p>Loading...</p>}</td>
+            <td>{<>Loading...</>}</td>
             <td>{}</td>
           </tr>)
           
